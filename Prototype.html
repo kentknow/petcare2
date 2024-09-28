@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morales Lorenz & Laraze Paul</title>
+    
+    <link rel="icon" type="petcarelogo.png" href="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petcarelogo.png">
+    <link rel="stylesheet" href="header.css">
+    
+
+    <!-- boxes for main content -->
+<style>
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .box {
+        width: 800px;
+        padding: 15px;
+        background-color: #F5EDCF;
+        color: black;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        float: right;
+        margin: 50px;
+        text-align: right;
+    }
+
+    .box2 {
+        margin-left: 25px;
+        width: 600px;
+        padding: 0;
+        border-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        float: left;
+    }
+
+    .box2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .box3 {
+        width: 1000px;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        text-align: left;
+    }
+
+    .box3-title {
+        font-size: 40px;
+        text-align: left;
+        margin-bottom: 20px; /* Space between title and content */
+        color: #000; 
+    }
+
+    .box3-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #text {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .box4 {
+        width: 600px;
+        border-radius: 15px;
+        border-color: #06397E;
+    }
+
+    .box4 img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    .box5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1000px;
+        padding: 20px;  /* Added padding for a more balanced look */
+        margin: 0 auto; /* Center the box horizontally */
+        border-radius: 15px;
+        border-style: dashed;
+        background-color: #F5EDCF;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        text-align: left;
+    }
+
+    .box5 p {
+        flex: 1;  /* Make the text take available space */
+        margin-right: 20px;  /* Add some spacing between text and image */
+    }
+
+    .box6 {
+        width: 400px;  /* Set a fixed width for the image container */
+    }
+
+    .box6 img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+</head>
+<body>
+
+    <div class = "nav">
+        <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petcarelogo.png" id ="logo">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#rates">Rates</a></li>
+            <li><a href="#about">About</a></li>
+            <li style="float:right"><a class="active" href="#login">Log-in/Sign-up</a></li>
+        </ul> 
+    </div>
+
+
+    <div>
+        <hr id ="lines">
+        <div class = "head">
+            <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/headerbanner.png" logo = "headbanner">
+        </div>
+        <hr id ="lines">
+    </div>
+    
+    <br>
+    
+    <div class="clearfix">
+        <div class="box">
+            <h2 style="text-align: left; font-size: 40px">Who we are</h2>
+            <br>
+            <p style="text-align: justify; font-size: 23px;">
+                Purrfect Pet Care is your trusted partner for all your pet care needs. We are a dedicated team of animal lovers committed to providing top-notch care for your furry family members. Whether you're looking for dog walking, pet sitting, grooming, or specialized care, we've got you covered. With a passion for pets and years of experience, we ensure your pets are treated with the love and attention they deserve. At Purrfect Pet Care, your pet's happiness and well-being are our top priority.
+            </p>
+        </div>
+    
+        <div class="box2">
+            <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petdaycare1.jpg" id="petdaycare1">
+        </div>
+    </div>
+
+    <br>
+    
+    <div class="box3">
+        <h2 class="box3-title">Where we are</h2> <!-- Title outside flex container -->
+        <div class="box3-content"> <!-- Flex container for text and image -->
+            <div id="text">
+                <p style="font-size: 23px;">
+                    <b>Address:</b> 1000 W Friendly Street, Friendly, West Virginia
+                </p>
+                <p style="font-size: 23px;">
+                    <b>Email:</b> purrfectpetcare@email.com
+                </p>
+                <p style="font-size: 23px;">
+                    <b>Phone Number:</b> 1-888-PET-CARE
+                </p>
+            </div>
+            <div class="box4">
+                <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/map-friendly.png" id="map">
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <p style="font-size: 50px; color: #ffffff; text-align: center;">Christmas Wrap Night</p>
+    <div class="box5">
+        <p>Treat yourself to peace and quiet this holiday season with our Christmas Wrap Night! For just $50, enjoy 3 hours of worry-free time while we care for your pets in a cozy, safe environment. Perfect for a festive date night or gift wrapping, leave up to 2 pets with us for quality care and relaxation. Book now for a stress-free holiday!</p>
+        <div class="box6">
+            <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/special-pic.jpg" id="ad">
+        </div>
+    </div>
+
+    <br> 
+    
+    
+    <!-- Footer -->
+    <hr>
+    <div class="footer">
+        <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/pawprint.jpg" class="footerpaw2">
+        <div class="section1-footer">
+            <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petcarelogo.png" id="logofooter">
+            <h1> Connect With Us</h1>
+            <p>Be updated with the latest pet care tips, exclusive <br />offers,  upcoming events, and more. Stay connected<br /> to ensure your furry friends receive the best care <br />possible!"</p>
+            <input type="text" id="footer-email" placeholder="Enter your email address">
+            <input type="submit" id="footer-submit" value="Subscribe">
+        </div>
+        <div class="section2-footer">
+            <h1>Purrfect Pet Care</h1>
+            <p>1000 W Friendly Street in Friendly, West Virginia <br /> Phone: 1-888-PET-CARE  |  Email: purrfectpetcare@email.com <br /> Business Hours: <br /> Mon - Fri: *:00 AM - 6:00PM <br /> Sat: 9:00 AM - 5:00 PM <br /> Sun: Closed</p>
+        </div>
+        <div class="footer-bottom">
+            <h1> Founded by: Lorenz Morales, & Paul Laraze <br /> © 2024 Purrfect Pet Care. All rights reserved. | Privacy Policy | Terms of Service</h1>
+        </div>
+    </div>
+
+</body>
+</html> 
