@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founded by: Lorenz Morales, and Paul Laraze</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="icon" type="petcarelogo.png" href="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petcarelogo.png">
+</head>
+<body>
+    <div class="background"> </div>
+    <div class="content">
+        <div class="header">
+            <div class="rectangle"> 
+                <a href="index.html">
+                    <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petcarelogo.png" id="logo">
+                </a>
+                <ul class="nav">
+                    <li>Services</li>
+                    <li><a href="rates.html">Rates</li></a>
+                    <li>About</li>
+                    <li>Log-In/Sign-Up</li>
+                </ul>
+            </div>
+            <hr>
+    
+    <!-- Main Content -->
+
+            <div class="headerbanner">
+                <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/headerbanner.png" id="banner" alt="headbanner">
+                <hr>
+            </div>
+            
+        </div>
+            <div class="whoweare">
+                <div class="whowearecontainer">
+                    <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petdaycare1.jpg" id="image1" alt = "dog nose close to the screen and many happy dogs">
+                    <div class="panel">
+                        <div class="whotext">
+                            <h1>Who we are...</h1>
+                            <p> "Purrfect Pet Care is your trusted partner for all your pet care needs. We are a dedicated team of animal lovers committed to providing top-notch care for your furry family members. Whether you're looking for dog walking, pet sitting, grooming, or specialized care, we've got you covered. With a passion for pets and years of experience, we ensure your pets are treated with the love and attention they deserve. At Purrfect Pet Care, your pet's happiness and well-being are our top priority."</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="whereweare">
+                <div class="panel2">
+                    <h1> Where we are...</h1>
+                    <p> We are located at 1000 W Friendly Street, Friendly, West Virginia with email purrfectpetcare@email.com and phone number of 1-888-PET-CARE.</p>
+                    <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/map-friendly.png" alt = "purrfectpetcare map">
+                </div>
+            </div>
+            
+        <div class="event-container">
+            <h1>Christmas Night Wrap</h1>
+            <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/goldheart.png" alt = " gold heart">
+            <div class="panel3">
+                <p>
+                    Treat yourself to peace and quiet this holiday season with our Christmas Wrap Night! For just $50, enjoy 3 hours of worry-free time while we care for your pets in a cozy, safe environment. Perfect for a festive date night or gift wrapping, leave up to 2 pets with us for quality care and relaxation. Book now for a stress-free holiday!
+                </p>
+                <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/special-pic.jpg" alt="tilapia cat's chin on Christmas box">
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        
+        <div class="footer">
+            <hr>
+            <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/pawprint.jpg" class="footerpaw2" alt="pawprint">
+            <div class="section1-footer">
+                <img src="https://raw.githubusercontent.com/kentknow/petcare2/main/images/petcarelogo.png" id="logofooter" alt = "logo">
+                <h1> Connect With Us</h1>
+                <p>Be updated with the latest pet care tips, exclusive <br />offers,  upcoming events, and more. Stay connected<br /> to ensure your furry friends receive the best care <br />possible!"</p>
+                <input type="text" id="footer-email" placeholder="Enter your email address">
+                <input type="submit" id="footer-submit" value="Subscribe">
+            </div>
+            <div class="section2-footer">
+                <h1>Purrfect Pet Care</h1>
+                <p>1000 W Friendly Street in Friendly, West Virginia <br /> Phone: 1-888-PET-CARE  |  Email: purrfectpetcare@email.com <br /> Business Hours: <br /> Mon - Fri: *:00 AM - 6:00PM <br /> Sat: 9:00 AM - 5:00 PM <br /> Sun: Closed</p>
+            </div>
+            <div class="footer-bottom">
+                <h1> Founded by: Lorenz Morales, & Paul Laraze <br /> © 2024 Purrfect Pet Care. All rights reserved. | Privacy Policy | Terms of Service</h1>
+            </div>
+        </div>
+    
+</div>
+</body>
+</html>
