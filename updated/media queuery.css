@@ -1,0 +1,111 @@
+
+
+@media screen and (max-width: 1024px) {
+    /* Styles for tablet-sized screens */
+}
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    /* Styles for mobile-sized screens */
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        left: 60vw; /* Adjust for tablet */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        left: 10vw; /* Move navigation closer on mobile */
+        font-size: 12px; /* Reduce font size for mobile */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .heart-text p {
+        font-size: 8vw; /* Increase for mobile */
+    }
+    .bef h1 {
+        font-size: 5vw; /* Responsive header text */
+    }
+    .bef p {
+        font-size: 3.5vw; /* Smaller text for mobile */
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .bef {
+        width: 90vw; /* Take more width on smaller screens */
+        height: auto;
+    }
+
+    .beflogo {
+        width: 30vw; /* Adjust logo size */
+        height: auto;
+    }
+
+    .bef h1, .bef p {
+        left: 50%; /* Center the text */
+        transform: translateX(-50%); /* Ensure centered position */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bef {
+        width: 95vw;
+        border-radius: 20px; /* Reduce radius for smaller screens */
+    }
+
+    .beflogo {
+        width: 40vw; /* Make logo smaller */
+    }
+
+    .bef h1, .bef p {
+        font-size: 5vw; /* Adjust font size */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        width: 90vw; /* Make table more flexible */
+        overflow-x: auto; /* Allow horizontal scroll on mobile */
+    }
+
+    td {
+        padding: 2vw; /* Smaller padding on mobile */
+        font-size: 14px;
+    }
+
+    .service-title {
+        font-size: 5vw;
+    }
+
+    .price {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1-footer, .section2-footer {
+        flex-basis: 100%; /* Full width on mobile */
+        text-align: center;
+    }
+
+    .section1-footer h1, .section2-footer h1 {
+        font-size: 16px;
+    }
+
+    .section1-footer p, .section2-footer p {
+        font-size: 12px;
+    }
+}
